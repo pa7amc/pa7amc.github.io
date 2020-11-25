@@ -37,6 +37,12 @@ body {
     width: 10rem ; /*1rem*/
 }
 
+#skills, #skills2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 h1, h3, h2, h4 {
     font-family: 'Ubuntu', sans-serif;
 
