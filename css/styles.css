@@ -1,11 +1,3 @@
-body {
-    background-color: rgba(248, 231, 241, 0.651);
-    margin: 0;
-    font-family: 'Ubuntu', sans-serif;
-
-    padding: 1rem;
-    margin: 1rem;
-}
 
 
 .pics_socs {
@@ -20,10 +12,23 @@ body {
 .pics_skills {
     width: 5rem; 
     padding:  1rem;
+    
+}
+
+.skills_div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .pics_skills:hover {
     transform: scale(1.1);
+}
+
+.text-basic {
+    font-size: 120%;
+   
+    
 }
 
 #content {
@@ -37,16 +42,31 @@ body {
     width: 10rem ; /*1rem*/
 }
 
-#skills, #skills2 {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+body {
+    background-color: rgba(248, 231, 241, 0.651);
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+
+    padding: 1rem;
+    margin: 1rem;
 }
+
 
 h1, h3, h2, h4 {
     font-family: 'Ubuntu', sans-serif;
-
     color: rgb(37, 35, 35);
+}
+
+h1 {
+    font-size: 300%; 
+    color: rgb(224, 129, 161); 
+    -webkit-text-stroke:0.5px black;
+}
+
+h2 {
+    font-size: 200%; 
+    color: rgb(224, 129, 161); 
+    -webkit-text-stroke:0.3px black;
 }
 
 hr {
