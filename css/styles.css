@@ -1,83 +1,93 @@
-
 body {
-    background-color: rgba(248, 231, 241, 0.651);
-    margin: 0;
-    font-family: 'Ubuntu', sans-serif;
+  background-color: rgba(248, 231, 241, 0.651);
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
 
-    padding: 1rem;
-    margin: 1rem;
+  padding: 1rem;
+  margin: 1rem;
 }
 
-
-h1, h3, h2, h4 {
-    font-family: 'Ubuntu', sans-serif;
-    color: rgb(37, 35, 35);
+h1,
+h3,
+h2,
+h4 {
+  font-family: "Ubuntu", sans-serif;
+  color: rgb(37, 35, 35);
 }
 
 h1 {
-    font-size: 300%; 
-    color: rgb(224, 129, 161); 
-    -webkit-text-stroke:0.5px black;
+  font-size: 300%;
+  color: rgb(224, 129, 161);
+  -webkit-text-stroke: 0.5px black;
 }
 
 h2 {
-    font-size: 200%; 
-    color: rgb(224, 129, 161); 
-    -webkit-text-stroke:0.3px black;
+  font-size: 200%;
+  color: rgb(224, 129, 161);
+  -webkit-text-stroke: 0.3px black;
 }
 
 hr {
-    width: 20%;
-    height: 0.17rem;
-    background-color: rgb(63, 34, 62);
-    border: 1px rgb(95, 87, 114);
-    border-radius: 0.5rem;
+  width: 20%;
+  height: 0.17rem;
+  background-color: rgb(63, 34, 62);
+  border: 1px rgb(95, 87, 114);
+  border-radius: 0.5rem;
 }
 
 .pics_socs {
-    width: 5rem; 
-    padding: 1rem;
+  width: 5rem;
+  padding: 1rem;
 }
 
 .pics_socs:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .pics_skills {
-    width: 5rem; 
-    padding:  1rem;
-    
+  width: 5rem;
+  padding: 1rem;
 }
 
 .skills_div {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.projects_div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .pics_skills:hover {
-    transform: scale(1.1);
-} 
+  transform: scale(1.1);
+}
 
 .text-basic {
-    font-size: 120%;
-   
-    
+  font-size: 120%;
 }
 
 #content {
-    text-align: center;
-    padding: 1rem;
-    margin: 1rem;
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem;
 }
 
 #pic {
-    border-radius: 4%;
-    width: 10rem ; /*1rem*/
+  border-radius: 4%;
+  width: 10rem; /*1rem*/
 }
 
 #sus {
-    border-radius: 2%;
-    width: 30rem ; /*1rem*/
-    margin-bottom: 1rem;
+  border-radius: 2%;
+  width: 30rem; /*1rem*/
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 350px), screen and (orientation: portrait) {
+  .suspic {
+    max-width: 100%;
+  }
 }
