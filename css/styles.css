@@ -85,6 +85,7 @@ hr {
   border-radius: 2%;
   width: 30rem; /*1rem*/
   margin-bottom: 1rem;
+  max-width: 100%;
 }
 
 @media only screen and (max-width: 350px), screen and (orientation: portrait) {
