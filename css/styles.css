@@ -57,6 +57,7 @@ hr {
 
 .projects_div {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
 }
