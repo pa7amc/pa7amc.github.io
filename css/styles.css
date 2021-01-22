@@ -94,12 +94,24 @@ hr {
   margin-bottom: 1rem;
   max-width: 100%;
 }
+
+#ab {
+  border-radius: 2%;
+  width: 30rem; /*1rem*/
+  margin-bottom: 1rem;
+  max-width: 100%;
+}
+
 @media only screen and (max-width: 350px), screen and (orientation: portrait) {
   .suspic {
     max-width: 100%;
   }
 
   .randomish {
+    max-width: 100%;
+  }
+
+  .alphabeta {
     max-width: 100%;
   }
 }
